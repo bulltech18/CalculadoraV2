@@ -11,5 +11,9 @@
         <item name="android:padding">36dp</item>
         <item name="android:gravity">center</item>
     </style>
+    <style name="AppTheme.Boton.Gris" parent="AppTheme.Boton" >
+
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 
 </resources>
