@@ -72,7 +72,7 @@
             android:layout_row="0"
             android:layout_column="3"
             android:background="#4A4ACC"
-            android:text="÷"
+            android:text="/"
             android:textSize="50dp"
             android:id="@+id/btndiv"
             />
@@ -117,7 +117,7 @@
             android:layout_row="1"
             android:layout_column="3"
             android:background="#4A4ACC"
-            android:text="x"
+            android:text="*"
             android:textSize="50dp"
             android:id="@+id/btnmulti"
             />
@@ -174,7 +174,7 @@
             android:layout_row="3"
             android:layout_column="0"
             android:background="#252726"
-            android:text="•"
+            android:text="."
             android:textAlignment="center"
             android:textSize="50dp"
             android:id="@+id/btnpunto"
