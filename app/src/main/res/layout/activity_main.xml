@@ -17,7 +17,7 @@
        android:textSize="100dp"
        android:textAlignment="textEnd"
        android:textColor="@android:color/white"
-
+       android:id="@+id/lblres"
        />
 
 
@@ -40,6 +40,7 @@
             android:layout_column="0"
             style="@style/AppTheme.Boton"
             android:background="#252726"
+            android:id="@+id/btn7"
             />
         <Button
             android:layout_width="wrap_content"
@@ -50,7 +51,7 @@
             android:layout_column="1"
             style="@style/AppTheme.Boton"
             android:background="#252726"
-
+            android:id="@+id/btn8"
             />
         <Button
             android:layout_width="wrap_content"
@@ -61,7 +62,7 @@
             android:layout_column="2"
             style="@style/AppTheme.Boton"
             android:background="#252726"
-
+            android:id="@+id/btn9"
             />
 
         <Button
@@ -72,7 +73,9 @@
             android:layout_column="3"
             android:background="#4A4ACC"
             android:text="÷"
-            android:textSize="50dp" />
+            android:textSize="50dp"
+            android:id="@+id/btndiv"
+            />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -82,6 +85,7 @@
             android:layout_column="0"
             style="@style/AppTheme.Boton"
             android:background="#252726"
+            android:id="@+id/btn4"
             />
         <Button
             android:layout_width="wrap_content"
@@ -92,6 +96,7 @@
             android:layout_column="1"
             style="@style/AppTheme.Boton"
             android:background="#252726"
+            android:id="@+id/btn5"
             />
         <Button
             android:layout_width="wrap_content"
@@ -102,6 +107,7 @@
             android:layout_column="2"
             style="@style/AppTheme.Boton"
             android:background="#252726"
+            android:id="@+id/btn6"
             />
 
         <Button
@@ -112,7 +118,9 @@
             android:layout_column="3"
             android:background="#4A4ACC"
             android:text="x"
-            android:textSize="50dp" />
+            android:textSize="50dp"
+            android:id="@+id/btnmulti"
+            />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -122,6 +130,7 @@
             android:layout_column="0"
             style="@style/AppTheme.Boton"
             android:background="#252726"
+            android:id="@+id/btn1"
             />
         <Button
             android:layout_width="wrap_content"
@@ -132,6 +141,7 @@
             android:layout_column="1"
             style="@style/AppTheme.Boton"
             android:background="#252726"
+            android:id="@+id/btn2"
             />
         <Button
             android:layout_width="wrap_content"
@@ -142,6 +152,7 @@
             android:layout_column="2"
             style="@style/AppTheme.Boton"
             android:background="#252726"
+            android:id="@+id/btn3"
             />
 
         <Button
@@ -152,7 +163,9 @@
             android:layout_column="3"
             android:background="#4A4ACC"
             android:text=" -"
-            android:textSize="50dp" />
+            android:textSize="50dp"
+            android:id="@+id/btnrest"
+            />
 
         <Button
             style="@style/AppTheme.Boton"
@@ -163,7 +176,9 @@
             android:background="#252726"
             android:text="•"
             android:textAlignment="center"
-            android:textSize="50dp" />
+            android:textSize="50dp"
+            android:id="@+id/btnpunto"
+            />
 
         <Button
             style="@style/AppTheme.Boton"
@@ -173,7 +188,9 @@
             android:layout_column="1"
             android:background="#252726"
             android:text="0"
-            android:textSize="50dp" />
+            android:textSize="50dp"
+            android:id="@+id/btn0"
+            />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -183,6 +200,7 @@
             android:layout_column="2"
             style="@style/AppTheme.Boton"
             android:background="#252726"
+            android:id="@+id/btnigual"
             />
 
         <Button
@@ -193,7 +211,9 @@
             android:layout_column="3"
             android:background="#4A4ACC"
             android:text="+"
-            android:textSize="50dp" />
+            android:textSize="50dp"
+            android:id="@+id/btnmas"
+            />
         <Button
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -203,7 +223,7 @@
             android:layout_column="0"
             android:layout_columnSpan="4"
             android:background="@color/colorAccent"
-
+            android:id="@+id/btnclear"
             />
 
 
